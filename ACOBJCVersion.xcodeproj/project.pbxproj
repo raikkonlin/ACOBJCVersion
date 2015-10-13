@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		348038E41BC9F6A600D16909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348038E31BC9F6A600D16909 /* main.m */; };
 		348038E71BC9F6A600D16909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348038E61BC9F6A600D16909 /* AppDelegate.m */; };
-		348038EA1BC9F6A600D16909 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348038E91BC9F6A600D16909 /* FirstViewController.m */; };
-		348038ED1BC9F6A600D16909 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348038EC1BC9F6A600D16909 /* SecondViewController.m */; };
-		348038F01BC9F6A600D16909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348038EE1BC9F6A600D16909 /* Main.storyboard */; };
 		348038F21BC9F6A600D16909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348038F11BC9F6A600D16909 /* Assets.xcassets */; };
 		348038F51BC9F6A600D16909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348038F31BC9F6A600D16909 /* LaunchScreen.storyboard */; };
+		348038FE1BC9F93F00D16909 /* CourseTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348038FD1BC9F93F00D16909 /* CourseTableTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		348039011BCA6FB100D16909 /* ShowRssContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348039001BCA6FB100D16909 /* ShowRssContentViewController.m */; settings = {ASSET_TAGS = (); }; };
+		348039091BCB61F600D16909 /* baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348039081BCB61F600D16909 /* baby.jpg */; settings = {ASSET_TAGS = (); }; };
+		348039421BCBE08500D16909 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348039411BCBE08500D16909 /* ACViewController.m */; settings = {ASSET_TAGS = (); }; };
+		348039701BCC684600D16909 /* alphacamp-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3480396F1BCC684600D16909 /* alphacamp-logo.png */; settings = {ASSET_TAGS = (); }; };
+		348039721BCC833A00D16909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348039711BCC833A00D16909 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,18 @@
 		348038E31BC9F6A600D16909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		348038E51BC9F6A600D16909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		348038E61BC9F6A600D16909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		348038E81BC9F6A600D16909 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		348038E91BC9F6A600D16909 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		348038EB1BC9F6A600D16909 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		348038EC1BC9F6A600D16909 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		348038EF1BC9F6A600D16909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		348038F11BC9F6A600D16909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		348038F41BC9F6A600D16909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		348038F61BC9F6A600D16909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348038FC1BC9F93F00D16909 /* CourseTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseTableTableViewController.h; path = ACOBJCVersion/CourseTableTableViewController.h; sourceTree = "<group>"; };
+		348038FD1BC9F93F00D16909 /* CourseTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseTableTableViewController.m; path = ACOBJCVersion/CourseTableTableViewController.m; sourceTree = "<group>"; };
+		348038FF1BCA6FB100D16909 /* ShowRssContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowRssContentViewController.h; sourceTree = "<group>"; };
+		348039001BCA6FB100D16909 /* ShowRssContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowRssContentViewController.m; sourceTree = "<group>"; };
+		348039081BCB61F600D16909 /* baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baby.jpg; sourceTree = "<group>"; };
+		348039401BCBE08500D16909 /* ACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACViewController.h; path = ACOBJCVersion/ACViewController.h; sourceTree = "<group>"; };
+		348039411BCBE08500D16909 /* ACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACViewController.m; path = ACOBJCVersion/ACViewController.m; sourceTree = "<group>"; };
+		3480396F1BCC684600D16909 /* alphacamp-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alphacamp-logo.png"; sourceTree = "<group>"; };
+		348039711BCC833A00D16909 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,9 @@
 		348038D61BC9F6A600D16909 = {
 			isa = PBXGroup;
 			children = (
+				3480396E1BCC60FA00D16909 /* ACMember */,
+				348039451BCBE49800D16909 /* EventParseHTMLTableViewController */,
+				348039441BCBE43700D16909 /* ClassRSSTableViewController */,
 				348038E11BC9F6A600D16909 /* ACOBJCVersion */,
 				348038E01BC9F6A600D16909 /* Products */,
 			);
@@ -63,13 +73,11 @@
 			children = (
 				348038E51BC9F6A600D16909 /* AppDelegate.h */,
 				348038E61BC9F6A600D16909 /* AppDelegate.m */,
-				348038E81BC9F6A600D16909 /* FirstViewController.h */,
-				348038E91BC9F6A600D16909 /* FirstViewController.m */,
-				348038EB1BC9F6A600D16909 /* SecondViewController.h */,
-				348038EC1BC9F6A600D16909 /* SecondViewController.m */,
-				348038EE1BC9F6A600D16909 /* Main.storyboard */,
 				348038F11BC9F6A600D16909 /* Assets.xcassets */,
+				348039711BCC833A00D16909 /* Main.storyboard */,
 				348038F31BC9F6A600D16909 /* LaunchScreen.storyboard */,
+				348039081BCB61F600D16909 /* baby.jpg */,
+				3480396F1BCC684600D16909 /* alphacamp-logo.png */,
 				348038F61BC9F6A600D16909 /* Info.plist */,
 				348038E21BC9F6A600D16909 /* Supporting Files */,
 			);
@@ -82,6 +90,33 @@
 				348038E31BC9F6A600D16909 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		348039441BCBE43700D16909 /* ClassRSSTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				348038FF1BCA6FB100D16909 /* ShowRssContentViewController.h */,
+				348039001BCA6FB100D16909 /* ShowRssContentViewController.m */,
+				348038FC1BC9F93F00D16909 /* CourseTableTableViewController.h */,
+				348038FD1BC9F93F00D16909 /* CourseTableTableViewController.m */,
+			);
+			name = ClassRSSTableViewController;
+			sourceTree = "<group>";
+		};
+		348039451BCBE49800D16909 /* EventParseHTMLTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EventParseHTMLTableViewController;
+			sourceTree = "<group>";
+		};
+		3480396E1BCC60FA00D16909 /* ACMember */ = {
+			isa = PBXGroup;
+			children = (
+				348039401BCBE08500D16909 /* ACViewController.h */,
+				348039411BCBE08500D16909 /* ACViewController.m */,
+			);
+			name = ACMember;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				348038F51BC9F6A600D16909 /* LaunchScreen.storyboard in Resources */,
+				348039091BCB61F600D16909 /* baby.jpg in Resources */,
+				348039721BCC833A00D16909 /* Main.storyboard in Resources */,
 				348038F21BC9F6A600D16909 /* Assets.xcassets in Resources */,
-				348038F01BC9F6A600D16909 /* Main.storyboard in Resources */,
+				348039701BCC684600D16909 /* alphacamp-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,24 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348038ED1BC9F6A600D16909 /* SecondViewController.m in Sources */,
+				348039011BCA6FB100D16909 /* ShowRssContentViewController.m in Sources */,
 				348038E71BC9F6A600D16909 /* AppDelegate.m in Sources */,
-				348038EA1BC9F6A600D16909 /* FirstViewController.m in Sources */,
+				348038FE1BC9F93F00D16909 /* CourseTableTableViewController.m in Sources */,
 				348038E41BC9F6A600D16909 /* main.m in Sources */,
+				348039421BCBE08500D16909 /* ACViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		348038EE1BC9F6A600D16909 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				348038EF1BC9F6A600D16909 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		348038F31BC9F6A600D16909 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -305,6 +335,7 @@
 				348038FB1BC9F6A600D16909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

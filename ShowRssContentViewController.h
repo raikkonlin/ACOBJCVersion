@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ShowRssContentViewController.h
 //  ACOBJCVersion
 //
 //  Created by LINCHUNGYAO on 2015/10/11.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ShowRssContentViewController : UIViewController
+
+@property(nonatomic,copy) NSString *url;
 
 
 @end
-

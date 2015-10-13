@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  CourseTableTableViewController.h
 //  ACOBJCVersion
 //
 //  Created by LINCHUNGYAO on 2015/10/11.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
 
+@interface CourseTableTableViewController : UITableViewController <NSXMLParserDelegate>
 
 @end
-
